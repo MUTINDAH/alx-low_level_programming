@@ -6,7 +6,7 @@
  *Decription -This program will assign a random number to the variable n each time it is executed
  *Return -will return 0
  */
-int main (void)
+int main(void)
 {
 	int n;
 	srand (time(0));
@@ -22,6 +22,6 @@ int main (void)
 	{
 		printf("%d is negative\n",n);
 	}
-	return (0)
+	return (0);
 	}
 }
