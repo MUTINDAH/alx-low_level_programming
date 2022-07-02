@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *Main -Entry point of program
- *Decription -This program will assign a random number
- *
- *Return -will return 0
+ *main -Entry point of program
+ *decription -This program will assign a random number
+ *return -will return 0
  */
 
 int main(void)
@@ -15,7 +14,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-printf("%d is Positive\n", n);
+printf("%d is positive\n", n);
 }
 else if (n == 0)
 {
