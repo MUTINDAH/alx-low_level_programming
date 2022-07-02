@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  *Main -Entry point of program
- *Decription -This program will assign a random number to the variable n each time it is executed
+ *Decription -This program will assign a random number
  *
  *Return -will return 0
  */
@@ -17,7 +17,7 @@ if (n > 0)
 {
 printf("%d is Positive\n", n);
 }
-else if (n == 0)
+else if (n = = 0)
 {
 printf("%d is zero\n", n);
 }
