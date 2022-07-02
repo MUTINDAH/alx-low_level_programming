@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 /**
  * main - main block
  * Description: This program will assign a random number
@@ -10,9 +8,9 @@
 int main(void)
 {
 char ch;
-for(ch = 'a'; ch <= "z"; ch++)
+for(ch = 'a'; ch <= "z"; ++ch)
 {
-putchar("%c", ch);  
+putchar(ch);  
 }
 return(0);
 }
