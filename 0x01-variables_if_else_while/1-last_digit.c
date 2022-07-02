@@ -4,8 +4,7 @@
 /**
  * main - main block
  * Description -programs check last digit comparison
- *
- * return: 0
+ * return - 0 is returned under success
  */
 int main(void)
 {
