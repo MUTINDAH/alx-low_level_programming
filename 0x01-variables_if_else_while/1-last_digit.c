@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+
 /**
  * main - main block
- * Description -programs check last digit comparison
- * return - 0 is returned under success
+ * Description: Get a random number and print the number
+ * and if it is positive, negative, or zero
+ * Return: 0
  */
 
 int main(void)
