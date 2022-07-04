@@ -1,15 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main-entry point of program
- * return-success return 0
+ * main - main block
+ * Description: Get a random number and print the number
+ * and if it is positive, negative, or zero
+ * Return: 0
  */
+
 int main(void)
 {
-	char ch;
-	for (ch = 0; ch <= 0; ch++)
-	{
-		if (ch != 'e' && ch != 'q')
-			putchar(ch);
-	}
-	return (0);
+char ch;
+for (ch = 'a'; ch <='z'; ch++)
+{
+if (ch !='e' && ch != 'q')
+putchar(ch);
+}
+return 0;
 }
