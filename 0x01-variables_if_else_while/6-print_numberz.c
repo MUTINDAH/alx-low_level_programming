@@ -8,10 +8,12 @@
 int main(void)
 {
 int x;
-for(x == 0; x < 10; x++)
+x=0;
+while(x<10)
 {
-printf("%d", x);
+putchar(x + '0');
+x++;
 }
-printf("\n");
+putchar ('\n');
 return (0);
 }
