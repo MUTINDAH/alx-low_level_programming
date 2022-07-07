@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * mul - returns the product of its parameters
  * @a: int type number
