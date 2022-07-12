@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * reset_to_98(int *n) - pointer
- * @n: int parameter
- * Return: return 0
+ * reset_to_98 - check for a digit
+ * @n : number of \\ to be printed
+ * Return:void
  */
 
 void reset_to_98(int *n)
