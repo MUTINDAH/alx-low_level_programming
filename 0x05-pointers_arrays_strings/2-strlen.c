@@ -1,12 +1,17 @@
 #include "main.h"
 
 /**
- * swap_int - function that swaps the values of two integers
- * @s : character to find length.
+ * _strlen - function that swaps the values of two integers
+ * @s : character s
  * Return:void
  */
 
-int _strlen(char *s);
+int _strlen(char *s)
 {
-	strlen(*s);
+	int i = 0;
+	while (s[i])
+	{
+		i++;
+	}
+	return (i);
 }
