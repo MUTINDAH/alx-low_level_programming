@@ -1,3 +1,11 @@
+#include "main.h"
+/**
+ * *_strcat - function that swaps the values of two integers
+ * @dest : integers to be swapped.
+ * @src : integers to be swapped.
+ * Return:void
+ */
+
 char *_strcat(char *dest, char *src)
 {
 char *dest;
