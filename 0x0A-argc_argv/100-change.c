@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
-* main ->program that prints the minimum number of coins to make change for an amount of money
+* main ->prints the min num of coins to
+* make change for an amount of money
 * @argc: argc parameter
 * @argv: an array of a command listed
 * Return: 0 for success
@@ -32,6 +33,6 @@ int main(int argc, char *argv[])
 			result++;
 		}
 	}
-	printf("%d\n", result);
-	return (0);
+printf("%d\n", result);
+return (0);
 }
