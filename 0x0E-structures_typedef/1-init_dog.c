@@ -1,3 +1,5 @@
+#include "dog.h"
+
 /**
  * init_dog - initializes struct dog
  * @d : param d
@@ -8,7 +10,9 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d)
+	d = malloc(sizeof(struct dog));
+	if (d == NULL)
+		return (NULL);
 	d->name = name;
 	d->age = age;
 	d->owner = owner;
