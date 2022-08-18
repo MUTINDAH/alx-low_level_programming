@@ -9,7 +9,7 @@
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned long int tmp, i = 1, count = 0;
-	
+
 	/* find the different bits */
 	tmp = n ^ m;
 	/* count ones in tmp */
